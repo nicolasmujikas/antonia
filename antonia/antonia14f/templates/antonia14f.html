@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+      body {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         height: 100vh;
+         margin: 0;
+      }
+
+      .container {
+         text-align: center;
+      }
+
+      #audioPlayer {
+         display: none; /* Inicialmente oculto */
+         width: 100%;
+         max-width: 400px;
+      }
+   </style>
+   <title>TE AMO</title>
+</head>
+
+<body>
+   <div class="container">
+      <!-- Hacer clic en el texto activará la reproducción y redirigirá a flores.html -->
+      <p class="amor" onclick="playAudioAndRedirect()">Antonia</p>
+      <!-- Agregar el archivo de audio local como valor src -->
+      <audio id="audioPlayer" controls>
+         <source src="tucarita.mp3" type="audio/mpeg">
+         Tu navegador no soporta la etiqueta de audio.
+      </audio>
+
+      
+      
+      <p class="tercera">Detallista</p>
+      
+      <p class="quinta">Soñadora</p>
+      <p class="sexta">Leal</p>
+      <p class="septima">Dulce</p>
+      <p class="octava">Coreana</p>
+      <p class="novena">Adorable</p>
+      <p class="decima">Creativa</p>
+      <p class="decima1">Radiante</p>
+      <p class="decima2">Bondadosa</p>
+      <p class="decima4">Solidaria</p>
+      <p class="decima5">Preparada</p>
+      <p class="decima6">Esforzada</p>
+      <p class="decima7">Tranquilidad</p>
+      <p class="decima8">Sincera</p>
+      <p class="decima9">Inteligente</p>
+      <p class="vigesima">Cariñoza</p>
+      <p class="vigesima1">Hermosa</p>
+      <p class="vigesima2">Felicidad</p>
+      <p class="vigesima3">Conciliadora</p>
+      <p class="vigesima4">Coqueta</p>
+      <p class="vigesima5">Chistosa</p>
+      <p class="vigesima6">Amor</p>
+      <p class="primera-">Fascinante</p>
+      <p class="segunda-">Especial</p>
+      <p class="tercera-">Única</p>
+      <p class="cuarta-">Agradable</p>
+      <p class="quinta-">Gatuna</p>
+      <p class="sexta-"> Roy</p>
+      <p class="septima-">Tuchi</p>
+      <p class="octava-">Ellie</p>
+      <p class="novena-">Ryuk</p>
+      <p class="decima-">Chefsita</p>
+      <p class="decima-1">Canela</p>
+      <p class="decima-4">Helado</p>
+      <p class="decima-5">Simpatica</p>
+      <p class="decima-6">Amo</p>
+      <p class="decima-7">Te</p>
+      <p class="decima-8">Papas</p>
+      <p class="decima-9">Burger</p>
+      <p class="vigesima-">Mimir</p>
+      <p class="vigesima-1">Abrazos</p>
+      <p class="vigesima-2">Besos</p>
+      <p class="vigesima-3">Perfección</p>
+      <p class="vigesima-4">Fabulosa</p>
+      <p class="vigesima-5">Capaz</p>
+      <p class="vigesima-6">Amable</p>
+      <p class="vigesima-7">Paz</p>
+      
+   </div>
+
+   <script>
+      function playAudioAndRedirect() {
+         var audio = document.getElementById("audioPlayer");
+         audio.play();
+         // Redirigir a flores.html después de iniciar la reproducción
+         window.location.href = "flores.html";
+      }
+   </script>
+</body>
+
+</html>
+
+
+
+
+
+<style>
+
+    
+
+    body{
+
+       background-color: #0b1522;
+
+    }
+
+    
+    .container{
+
+       width: 500px;
+
+       height: 500px;
+
+       
+
+       right: -90px;
+
+       bottom: -30px;
+
+       position: relative;
+
+    }/*accedimos a la palabra principal del centro de nuestro corazon*/
+
+
+
+    .amor{
+
+       position: absolute;
+
+       right: 240px;
+
+       bottom: 100px;
+
+       color: red;
+
+       font-size: 30px;
+
+    }
+
+
+
+    /*ahora accederemos a las clases de todas las palabras*/
+
+
+
+    .primera{
+
+       /*posicionaremos absolute para que tome como referencia el contenedor principal y ajustemos el right y bottom segun queramos*/
+
+       position: absolute;
+
+       right: 250px;
+
+       bottom: 0;    
+
+    }
+
+
+
+   /* ahora accedemos a todas las palabras*/
+
+
+
+   p{
+
+    color: red;
+
+    /*damos una sombra*/
+
+    box-shadow: -10px 15px 100px #f20044;
+
+   }
+
+
+
+    .segunda{
+
+          position: absolute;
+
+          right: 235px;
+
+          bottom: 15px;
+
+       }
+
+       .tercera{
+
+          position: absolute;
+
+          right: 215px;
+
+          bottom: 25px;
+
+       }.cuarta{
+
+          position: absolute;
+
+          right: 205px;
+
+          bottom: 35px;
+
+       }.quinta{
+
+          position: absolute;
+
+          right: 190px;
+
+          bottom: 45px;
+
+       }.sexta{
+
+          position: absolute;
+
+          right: 175px;
+
+          bottom: 60px;
+
+       }.septima{
+
+          position: absolute;
+
+          right: 160px;
+
+          bottom: 75px;
+
+       }.octava{
+
+          position: absolute;
+
+          right: 145px;
+
+          bottom: 90px;
+
+       }.novena{
+
+          position: absolute;
+
+          right: 140px;
+
+          bottom: 105px;
+
+       }.decima{
+
+          position: absolute;
+
+          right: 125px;
+
+          bottom: 120px;
+
+       }.decima1{
+
+          position: absolute;
+
+          right: 110px;
+
+          bottom: 135px;
+
+       }.decima2{
+
+          position: absolute;
+
+          right: 100px;
+
+          bottom: 150px;
+
+       }.decima3{
+
+          position: absolute;
+
+          right: 100px;
+
+          bottom: 165px;
+
+       }.decima4{
+
+          position: absolute;
+
+          right: 100px;
+
+          bottom: 165px;
+
+       }.decima5{
+
+          position: absolute;
+
+          right: 100px;
+
+          bottom: 180px;
+
+       }.decima6{
+
+          position: absolute;
+
+          right: 105px;
+
+          bottom: 195px;
+
+       }.decima7{
+
+          position: absolute;
+
+          right: 110px;
+
+          bottom: 210px;
+
+       }.decima8{
+
+          position: absolute;
+
+          right: 120px;
+
+          bottom: 225px;
+
+       }.decima9{
+
+          position: absolute;
+
+          right: 130px;
+
+          bottom: 240px;
+
+       }.vigesima{
+
+          position: absolute;
+
+          right: 140px;
+
+          bottom: 255px;
+
+       }.vigesima1{
+
+          position: absolute;
+
+          right: 175px;
+
+          bottom: 270px;
+
+       }.vigesima2{
+
+          position: absolute;
+
+          right: 205px;
+
+          bottom: 255px;
+
+       }.vigesima3{
+
+          position: absolute;
+
+          right: 220px;
+
+          bottom: 240px;
+
+       }.vigesima4{
+
+          position: absolute;
+
+          right: 230px;
+
+          bottom: 225px;
+
+       }.vigesima5{
+
+          position: absolute;
+
+          right: 240px;
+
+          bottom: 210px;
+
+       }.vigesima6{
+
+          position: absolute;
+
+          right: 250px;
+
+          bottom: 190px;
+
+
+
+        /*hasta aqui tendriamos el medio corazon , tenes que seguir posicinando las palabras*/
+
+       }
+
+
+
+       .primera-{
+
+          position: absolute;
+
+          left: 190px;
+
+          bottom: 15px;
+
+       }
+
+       .segunda-{
+
+          position: absolute;
+
+          right: 285px;
+
+          bottom: 30px;
+
+       }
+
+       .tercera-{
+
+          position: absolute;
+
+          right: 305px;
+
+          bottom: 40px;
+
+       }
+
+       .cuarta-{
+
+          position: absolute;
+
+          right: 315px;
+
+          bottom: 55px;
+
+       }
+
+       .quinta-{
+
+          position: absolute;
+
+          right: 345px;
+
+          bottom: 70px;
+
+       }
+
+       .sexta-{
+
+          position: absolute;
+
+          right: 355px;
+
+          bottom: 85px;
+
+       }
+
+       .septima-{
+
+          position: absolute;
+
+          right: 360px;
+
+          bottom: 100px;
+
+       }
+
+       .octava-{
+
+          position: absolute;
+
+          right: 375px;
+
+          bottom: 115px;
+
+       }
+
+       .novena-{
+
+          position: absolute;
+
+          right: 388px;
+
+          bottom: 128px;
+
+       }
+
+       .decima-{
+
+          position: absolute;
+
+          right: 395px;
+
+           bottom: 140px;
+
+       }
+
+       .decima-1{
+
+          position: absolute;
+
+          right: 405px;
+
+          bottom: 155px;
+
+       }
+
+       .decima-2{
+
+          position: absolute;
+
+          right:425px ;
+
+          bottom: 160x;
+
+       }
+
+       .decima-4{
+
+          position: absolute;
+
+          right: 420px;
+
+          bottom: 170px;
+
+       }
+
+       .decima-5{
+
+          position: absolute;
+
+          right: 430px;
+
+          bottom: 190px;
+
+       }.decima-6{
+
+          position: absolute;
+
+          right: 435px;
+
+          bottom: 205px;
+
+       }
+
+       .decima-7{
+
+          position: absolute;
+
+          right: 415px;
+
+          bottom: 220px;
+
+       }
+
+       .decima-8{
+
+          position: absolute;
+
+          right: 413px;
+
+          bottom: 235px;
+
+       }
+
+       .decima-9{
+
+          position: absolute;
+
+          right:405px ;
+
+          bottom: 248px;
+
+       }
+
+       .vigesima-{
+
+          position: absolute;
+
+          right: 390px;
+
+          bottom: 265px;
+
+       }
+
+       .vigesima-1{
+
+          position: absolute;
+
+          right: 370px;
+
+          bottom: 279px;
+
+       }
+
+       .vigesima-2{
+
+          position: absolute;
+
+          right: 340px;
+
+          bottom: 265px;
+
+       }
+
+       .vigesima-3{
+
+          position: absolute;
+
+          right: 320px;
+
+          bottom: 250px;
+
+       }
+
+       .vigesima-4{
+
+          position: absolute;
+
+          right: 310px;bottom: 235px;
+
+       }
+
+       .vigesima-5{
+
+          position: absolute;
+
+          right: 300px;
+
+          bottom: 215px;
+
+       }
+
+       .vigesima-6{
+
+          position: absolute;
+
+          right: 285px;
+
+          bottom: 200px;
+
+       }
+
+       .vigesima-7{
+
+          position: absolute;
+
+          right: 285px;
+
+          bottom: 190px;
+
+       }
+
+       
+
+
+
+       /*podemos poner cualquier palabra */
+
+       /*POR ULTIMO VAMOS A REALIZAR LA ANIMACION DE LATIR*/
+
+       p{
+
+            /*accedemos a todos los parrafos */
+
+            animation: latiendo 0.6s linear infinite;
+
+       }
+
+
+
+       @keyframes latiendo {
+
+          0%{transform: scale(1.4);}
+
+          80%{transform: scale(2.)}
+
+       }
+
+       
+
+
+
+       
+
+ </style>
